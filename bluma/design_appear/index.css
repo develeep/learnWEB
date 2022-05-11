@@ -1,0 +1,7 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.box{
+  width: 1000px;
+}

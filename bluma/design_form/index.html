@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bulma 사용해보기</title>
+  <!-- bulma 가져오기 (인터넷 연결 말고, 미리 다운받은 파일 사용) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <!-- 커스텀 css -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <!--- 이 곳에 작성해 주세요.-->
+    <div class="field">
+      <label class="label" for="name">이름</label>
+      <div class="control">
+        <input class="input" id="name" type="text" placeholder="Text input" value="유재석">
+      </div>
+    </div>
+    
+    <div class="field">
+      <label class="label" for="username">닉네임</label>
+      <div class="control">
+        <input class="input" id="username" type="text"  placeholder="Text input" value="튜터">
+      </div>
+      <p class="help ">닉네임은 2글자 이상 9글자 이하 까집니다.</p>
+    </div>
+    
+    <div class="field">
+      <label class="label" for="email">이메일</label>
+      <div class="control">
+        <input class="input" id="email" type="email" placeholder="Email input" value="abc@example.com">
+      </div>
+    </div>
+    
+    <div class="field">
+      <label class="label" for="funney">취미</label>
+      <div class="control">
+        <div class="select" id="funney">
+          <select>
+            <option>코딩</option>
+            <option>운동</option>
+            <option>독서</option>
+          </select>
+        </div>  
+      </div>
+    </div>
+    <div class="field">
+      <div class="control">
+        <label class="label" for="password">비밀번호</label>
+        <input class="input" id="password" type="password" placeholder="Password">
+
+      </div>
+    </div>
+    <div class="field">
+      <div class="control">
+        <label class="label" for="re-password">비밀번호 확인</label>
+        <input class="input" id="re-password" type="password" placeholder="Password">
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
