@@ -1,0 +1,8 @@
+.container-for-centering {
+  height: 100vh;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
