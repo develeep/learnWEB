@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  background-color: #bcbcbc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.product-item {
+  padding: 1rem;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+}
+
+.product-item img {
+  height: 400px;
+  width: 400px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description .detail {
+  flex-grow: 1;  
+  
+}
+
+.description .price {
+  margin-bottom: 3rem;
+}
